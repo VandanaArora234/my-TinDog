@@ -1,0 +1,163 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  margin: 15px auto;
+}
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #fff;
+}
+.container-fluid {
+  padding: 7% 9%;
+}
+/* Section colors */
+
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* navbar properties */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* title image */
+
+.dog-img1 {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+.feature-head{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 4%;
+}
+
+/* font awesome icons */
+.fas-features {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.fas-features:hover {
+  color: #ff4c68;
+}
+
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 30px 20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media Query for respnsiveness */
+@media (max-width: 1028px) {
+  .dog-img1 {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* <!-- Call to Action --> */
+
+/* <!-- Footer --> */
+
+.footer-fab{
+  margin: 20px 10px;
+}
